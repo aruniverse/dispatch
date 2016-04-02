@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="All Responders Have Been Notified!"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="75dp"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textColor="#009933"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Start"
+        android:id="@+id/back"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="40dp" />
+</LinearLayout>

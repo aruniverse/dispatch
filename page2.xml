@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reason for Emergency:"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textIsSelectable="true"
+        android:textColor="#990000"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isolated Medical Emergeny"
+        android:id="@+id/checkBox"
+        android:layout_marginTop="75dp"
+        android:checked="false"
+        android:textSize="40dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Public Endangerment Issue"
+        android:id="@+id/checkBox2"
+        android:layout_marginTop="30dp"
+        android:checked="false"
+        android:textSize="40dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motor Accident"
+        android:id="@+id/checkBox3"
+        android:layout_marginTop="30dp"
+        android:checked="false"
+        android:textSize="40dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mass Casualty Situation"
+        android:id="@+id/checkBox4"
+        android:layout_marginTop="30dp"
+        android:checked="false"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/next"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"
+        android:textSize="55dp"
+        android:padding="30dp"
+        android:background="#33cc33" />
+
+</LinearLayout>
